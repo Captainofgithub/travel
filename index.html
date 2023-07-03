@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--header section starts-->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">package</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!--header section ends-->
+
+<!--login form container-->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>dont have account? <a href="">register now</a></p>
+    </form>
+</div>
+
+<!--home section starts-->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worth while</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="1.mp4"></span>
+        <span class="vid-btn" data-src="2.mp4"></span>
+        <span class="vid-btn" data-src="3.mp4"></span>
+        <span class="vid-btn" data-src="4.mp4"></span>
+        <span class="vid-btn" data-src="5.mp4"></span>
+        
+    </div>
+
+    <div class="video-container">
+        <video src="1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<!--home section ends-->
+
+<!--body section starts-->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="travel1.avif" alt="">
+        </div>
+        <form action="">
+            <div class="inputbox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputbox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guest">
+            </div>
+            <div class="inputbox">
+                <h3>arrival</h3>
+                <input type="date">
+            </div>
+            <div class="inputbox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+
+<!--body section ends-->
+
+<!--package section starts-->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="tajmahal.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>delhi</h3>
+                <p>in delhi taj mahal is very famous. this is clalled as symbol of love. taaj mahal kattunadu kothanreh shaajahaan kitta sonna kooda othuparu.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.0</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="marina.webp" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>chennai</h3>
+                <p>in chennai marina beach is very famous. this is the symbol of chennai. this the second largest beach in the world.i prefer sundari akka hotel for foods.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$120.0</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="burj khalifa.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>dubai</h3>
+                <p>in dubai burj khalifa is very famous. this the identity of dubai. this is the world highest building in the world. dubai famous for this building "burj khalifa".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $120.00 <span>$120.0</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="efel.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>paries</h3>
+                <p>in paries iphel tower is very famous. in a recent days also we went any shop we see this toys . this is the symbol of paries.it was very famous on that time.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$120.0</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="thiruvalluvar.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>kanyakumari</h3>
+                <p>kanniyakumari is very famous for thiruvaluvar statue. he wrote 1333 kurals for the world . and main thing is it is common for all. thats why its called ulagapodumarai.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$120.0</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="newyork.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>new york</h3>
+                <p>in usa this statue is very famous. the statue makes the usa very much prouder, because they thought it is their pride. and this is the second largest statue in the world.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $150.00 <span>$120.0</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--package section end-->
+
+<!--services section starts-->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>we provide a best hotels to stay. we improve safety measures also.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>we provide a best hotels to stay. we improve safety measures also.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>we provide a best hotels to stay. we improve safety measures also.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>we provide a best hotels to stay. we improve safety measures also.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>we provide a best hotels to stay. we improve safety measures also.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>we provide a best hotels to stay. we improve safety measures also.</p>
+        </div>
+    </div>
+</section>
+
+<!--services section ends-->
+
+<!--gallery section starts-->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1> 
+    
+    <div class="box-container">
+        <div class="box">
+            <img src="group12.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>we are going this place with these travels ..these travels gives a best memory to all .</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group13.jpg" alt="">
+            <div class="content">
+                <h3>feeling good</h3>
+                <p>we make us very good to feel.we make us very happy also.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group3.webp" alt="">
+            <div class="content">
+                <h3>affordable price</h3>
+                <p>we take you to very nice place with affordable prices.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group4.jpg" alt="">
+            <div class="content">
+                <h3>time management</h3>
+                <p>we shedule time for the best places so we go all to this wounderfull places.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group6.webp" alt="">
+            <div class="content">
+                <h3>beautiful view</h3>
+                <p>we pic us to the great view and make your day more precious memorable</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group7.jpeg" alt="">
+            <div class="content">
+                <h3>good foods</h3>
+                <p>we provide a good foods. because you dont miss the places due to any food allergy.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group8.jpg" alt="">
+            <div class="content">
+                <h3>trucking</h3>
+                <p>sometimes we make trucking also for the experience you gain.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group11.jpg" alt="">
+            <div class="content">
+                <h3>transport</h3>
+                <p>we arrange a best travels for you . sometimes it should be train or ship or an aeroplane also.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="group10.jpg" alt="">
+            <div class="content">
+                <h3>return</h3>
+                <p>we complete your day and make a good return. and make your journy as private.</p>
+                <a href="" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--gallery section ends-->
+
+<!--review section starts-->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1> 
+
+    <div class="swiper review_slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev1.jpg" alt="">
+                    <h3>roman reings</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev2.jpg" alt="">
+                    <h3>john cena</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev3.jpg" alt="">
+                    <h3>brock lesnar</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev5.jpg" alt="">
+                    <h3>triple h</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev7.jpg" alt="">
+                    <h3>randy orton</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev8.jpg" alt="">
+                    <h3>battista</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="rev9.jpg" alt="">
+                    <h3>the rock</h3>
+                    <p>i prefer this tourist website . they give a lot of entertainment and lot of security. realy i love this team..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--review section ends-->
+
+<!--contact section starts-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1> 
+
+    <div class="row">
+
+        <div class="image">
+            <img src="contact.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="number">
+                <input type="email" placeholder="subject">
+            </div>
+            <textarea name="submit" id="" cols="30" rows="10" placeholder="messege"></textarea>
+            <input type="submit" class="btn" value="send messege">
+        </form>
+    </div>
+
+</section>
+<!--contact section end-->
+
+<!--footer section starts-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>we provide a best tourist experience with classic by very low cost.</p>
+        </div>
+
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">usa</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+            <a href="#">russia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">github</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>mr.aakash</span>     |    all rights reserved !</h1>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!--custom java script link-->
+<script src="script.js"></script>
+</body>
+</html>
